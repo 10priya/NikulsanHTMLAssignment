@@ -1,0 +1,74 @@
+.nav_color{
+    background-color: #BDD99A;
+}
+.logo{
+    height: 30px;
+}
+#carousel .carousel-item.boat {
+    background-image: url("../image/safePlace.jpg");
+}
+#carousel .carousel-item.sea {
+    background-image: url("../image/bestservice.jpg");
+}
+#carousel .carousel-item {
+    height: 100vh;
+    width: 100%;
+    min-height: 350px;
+    background: no-repeat center center scroll;
+    background-size: cover;
+}
+
+  
+#carousel .carousel-inner .carousel-item {
+transition: -webkit-transform 2s ease;
+transition: transform 2s ease;
+transition: transform 2s ease, -webkit-transform 2s ease;
+}
+#carousel .carousel-item .caption {
+background-color: rgba(0, 0, 0, 0.5);
+padding: 40px;
+color: white;
+/* animation-duration: 1s;
+animation-delay: 2s; */
+}
+#carousel .caption h2 {
+animation-duration: 1s;
+animation-delay: 1s;
+}
+
+.box{
+    color:#F4671B ;
+    font-size: 18px;
+    font-weight: 600;
+} 
+.keepsafe{
+    text-decoration: underline;
+}
+.keepSafeImg{
+    height: 260px;
+    width: 400px;
+}
+.keepSafeInfo{
+    font-weight: 600;
+}
+.LogisticsInfo{
+    font-weight: 600;
+    color:#F4671B;
+}
+li{
+    font-weight: 600;
+    list-style-type: none;
+}
+
+.wow {
+  visibility: hidden;
+}
+.footer {
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    height: 50px;
+    background-color:#BDD99A;
+    color: #000;
+    text-align: center;
+}
